@@ -51,7 +51,7 @@ export const signIn = async (req, res) => {
     }
 
     // Generate a JWT token
-    const token = jwt.sign({ userId: user._id }, config.secret, {
+    const token = jwt.sign({ userId: user._id }, "JQULYSXL12345", {
       expiresIn: "1h",
     });
 

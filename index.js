@@ -30,5 +30,5 @@ mongoose
 app.use("/api", routes);
 app.use("/api/users", routes);
 
-const port = 8000;
+const port = 9000;
 app.listen(port, () => console.log(`Server is running on port ${port}`));
